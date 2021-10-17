@@ -1,0 +1,14 @@
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+#grid-container
+{
+    background-color: #F8F;
+    border: solid 10px #F0F;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
