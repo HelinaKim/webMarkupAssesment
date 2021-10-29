@@ -11,65 +11,97 @@
     <section id="flex-container">
         <header>
             <!--LOGO-->
-            <img src="img/logo.jpg" alt="logo"> 
-    
-            <!-- HEADERS -->
-            <h1>Travel</h1>
-            <h2>Discover your new life</h2>
+            <img src="img/logo.jpg" alt="logo" id="website-logo"> 
+            <h1 id="website-title">Home</h1>
+            <h2 id="payoff">PayOff</h2>
         </header>
-
         <!-- NAVIGATION_BAR -->
-        <nav>
-            <ul>
-                <li><a href="bestdestinations.html">Best Destination</a></li>
-                <li><a href="tickets.html">Tickets</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <nav id="navigation">
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="burger-menu">
+                    Menu
+                </label>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bestdestinations.html">Best Destination</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
     </section>
 
     <section id="flex-containerArticle">
         <!-- VIDEO -->
         <section class="video">
-            <video autoplay muted loop>
+            <video autoplay muted loop id="videoHome">
                 <source src="videos/tripVideo.mp4" type="video/mp4">
                 <source src="videos/tripVideo.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
         </section>
 
-        <article id="articleProduct1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus qui voluptatibus eligendi praesentium! 
-            Doloribus, et? Hic qui dolore soluta aperiam officiis! 
-            Atque dolorum inventore ipsum architecto consequatur tenetur 
-            minima laboriosam! 
-        </article>
-        <article id="articleProduct2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus qui voluptatibus eligendi praesentium! 
-            Doloribus, et? Hic qui dolore soluta aperiam officiis! 
-            Atque dolorum inventore ipsum architecto consequatur tenetur 
-            minima laboriosam!
-        </article>
-        <article id="articleProduct3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus qui voluptatibus eligendi praesentium! 
-            Doloribus, et? Hic qui dolore soluta aperiam officiis! 
-            Atque dolorum inventore ipsum architecto consequatur tenetur 
-            minima laboriosam!
-        </article>
+        <section>
+            <article id="articleProduct1">
+                <h1><strong>Discover Ibiza</strong></h1>
+                <section id="ibiza">
+                    <section>
+                        <p>
+                            Booking a flight to Ibiza? A flight vacation to this Spanish island is hip and happening. Thanks to its trendy clubs and discos, the Mediterranean island is known as the number one party capital of the Balearic Islands. Ibiza Town and San Antonio are the place to be for lovers of a vibrant sun vacation on Ibiza.But also for couples and family vacations Ibiza is a fantastic place. Especially the charming Santa Eulalia is very popular for a vacation with children. On Ibiza nothing is too crazy! Book your cheap flight tickets to Ibiza at TUI today!
+                            <a href="https://www.casamundo.com/holiday-rentals/spain/ibiza">more info</a>
+                        </p>
+                    </section>
+                    <a href="https://www.casamundo.com/holiday-rentals/spain/ibiza"><img src="img/ibiza.jpg" alt="ibiza" id="ibizaImg"></a>
+                </section>
 
-        <aside id="asideIndex">
-            <ol id="asideList">
-                <li>a</li>
-                <li>b</li>
-                <li>c</li>
-                <li>d</li>
-                <li>e</li>
-            </ol>
-        </aside>
+                <footer id="footerIbiza">&#169;<a href="https://www.casamundo.com/holiday-rentals/spain/ibiza">www.casamundo.com/holiday</a></footer>
+            </article>
 
+            <article id="articleProduct2">
+                <h1><strong>Raining Sunshine Montego Bay</strong></h1>
+                <section id="MontegoBay">
+                    <header>
+                        <p>
+                            Book your flight tickets to Montego Bay with TUI and prepare for a tropical sunshine vacation in Jamaica. This island in the Caribbean is known for its 'no-stress' lifestyle and snow-white beaches like Docters-Cave-Beach and Cornwall Beach, where you can spend entire days lazing under a swaying palm tree and gazing at the sea with a tropical drink in hand. Add to this the many excursions and the always sunny and warm climate, and the vacation picture is complete! So get on a plane to Jamaica quickly!
+                            <a href="https://www.tripadvisor.nl/Hotel_Review-g660724-d12473683-Reviews-Jewel_Grande_Montego_Bay_Resort_Spa-Rose_Hall_Montego_Bay_Saint_James_Parish_Jamaica.html">more info</a>
+                        </p>
+                    </header>
+                </section>
+                
+                <a href="https://www.tripadvisor.nl/Hotel_Review-g660724-d12473683-Reviews-Jewel_Grande_Montego_Bay_Resort_Spa-Rose_Hall_Montego_Bay_Saint_James_Parish_Jamaica.html"><img src="img/montagoBay.jpg" alt="montagoBay" id="montagoBay"></a>
+                
+                <footer id="footerMontegoBay">&#169;Tripadvisor</footer>
+            </article>
+
+            <article id="articleProduct3">
+                <h1><strong>The highlights of Paramaribo</strong></h1>
+                <section>
+                    <p>
+                        Paramaribo is the capital and the beating heart of Suriname. In the center you will find colored buildings in colonial style next to meters-high palm trees. Take a stroll through Palmengarten, the Surinamese answer to the traditional Dutch City Park. From the park, cross the Kleine Waterstraat and you're at the Surinaams Museum and Fort Zeelandia. Want to learn more about local history? Then join a guided tour of the fort. Then have dinner on the waterfront. Do you see yourself here already feasting on a portion of roti? Then buy flight tickets to Paramaribo right away.
+                        <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html">more info</a>
+                    </p>
+                </section>
+                <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html"><img src="img/paramaribo.jpg" alt="paramaribo" id="paramaribo"></a>
+                
+                <footer id="footerParamaribo">&#169; <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html">Tripadvisor</a></footer>
+            </article>
+        </section>
+        
+        <section id="flex-aside">
+            <aside id="asideIndex">
+                <ol id="asideList">
+                    <li>Malaga</li>
+                    <li>Ibiza</li>
+                    <li>Mollorca</li>
+                    <li>Paramaribo</li>
+                    <li>Montego Bay</li>
+                </ol>
+            </aside>
+        </section>
+        
+
+        <footer id="footerHome">&#169; Helina Kim</footer>
+
+        <section id="cookieHome">Cookie statement</section>
     </section>
 </body>
 </html>

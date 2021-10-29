@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
-audio::-webkit-media-controls-timeline,
-video::-webkit-media-controls-timeline 
-{
-    display: none;
 
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
+
 /*body font-family*/
 body
 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*video*/
+#videoHome
+{
+    width: 400px;
 }
 
 /*ticketTable colors*/
@@ -24,23 +31,58 @@ tr:nth-child(odd) {background: #FFF }
 }
 
 @media screen and (min-width: 1280px) {
-    /*video*/
-    .video
-    {
-        width: 100%;
-        height: 200px;
-    }
+    
     #flex-container
     {
         display: flex;
         flex-direction: column;
     }
-
+    #navigation
+    {
+        background-color: #94c9fa;
+    }
+    
     #flex-containerArticle
     {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
+    }
+    #articleProduct1
+    {
+        order: 1;
+        width: 73.2%;
+        background-color: #eeeecc;
+    }
+    /* #ibizaImg
+    {
+        float: right;
+        clear: both;
+    } */
+    #articleProduct2
+    {
+        order: 2;
+        width: 73.2%;
+        background-color: #ffdddd;
+    }
+    #articleProduct3
+    {
+        order: 3;
+        width: 73.2%;
+        background-color: #ddffff;
+    }
+
+    #flex-aside
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    #asideIndex
+    {
+        order: 1;
+        width: 26.8%;
+        background-color: #ddffdd;
     }
 
     /*navigation*/
