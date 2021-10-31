@@ -57,16 +57,11 @@ p:first-letter {
         overflow: hidden;
     }
 
-    /* #website-logo {
-        display: flex;
-        position: absolute;
-    } */
-
     #navigation {
         background-color: #94c9fa;
     }
 
-    .flex-container img {
+    .imgIndex {
         height: 150px;
         width: 300px;
         float: right;
@@ -105,92 +100,6 @@ p:first-letter {
         right: 0;
         top: 68vh;
     }
-
-
-
-    /* #ariticleProduct1,
-    #articleProduct2,
-    #articleProduct3 {
-        flex-grow: 0;
-        flex-basis: 60%;
-    }
-
-    #articleProduct1 {
-        order: 4;
-    }
-
-    #flex-aside {
-        order: 5;
-        flex-basis: 30%;
-        flex-grow: 0;
-        flex-shrink: 0;
-    }
-
-    #articleProduct2 {
-        order: 6;
-    }
-
-    #articleProduct3 {
-        order: 7;
-    } */
-
-    /* #flex-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #navigation {
-        background-color: #94c9fa;
-    }
-
-    #flex-aside {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-    }
-
-    #asideIndex {
-        order: 2;
-        flex-basis: 24.8%;
-        background-color: #ddffdd;
-    }
-
-    #ariticleProduct1,
-    #articleProduct2,
-    #articleProduct3 {
-        flex-grow: 0;
-        flex-basis: 60%;
-    }
-
-    #flex-containerArticle {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    #articleProduct1 {
-        order: 1;
-        flex-basis: 73.2%;
-        background-color: #eeeecc;
-    }
-
-    #ibizaImg
-    {
-        float: right;
-        clear: both;
-    }
-    #articleProduct2 {
-        order: 2;
-        flex-basis: 73.2%;
-        background-color: #ffdddd;
-    }
-
-    #articleProduct3 {
-        order: 3;
-        flex-basis: 73.2%;
-        background-color: #ddffff;
-    } */
-
 
 
     /*navigation*/
@@ -494,6 +403,10 @@ p:first-letter {
         order: 1;
     }
 
+    #website-logo {
+        width: 100px;
+    }
+
     #navigation {
         order: 2;
         min-width: 100%;
@@ -502,6 +415,9 @@ p:first-letter {
 
     .flex-aside {
         order: 3;
+        min-width: 100%;
+        border: 1px solid black;
+        background-color: #ddeeff;
     }
 
     .video {
@@ -512,14 +428,14 @@ p:first-letter {
         order: 5;
     }
 
-    #footerCookie {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-evenly;
+    .imgIndex {
+        height: 150px;
+        width: 300px;
     }
 
     #footerHome {
-        width: 73.2%;
+        order: 6;
+        border: 1px solid black;
     }
 
     #cookieHome {
@@ -529,7 +445,7 @@ p:first-letter {
         background-color: #FA0;
         bottom: 0px;
         right: 0px;
-        width: 26.8;
+        width: 26.8%;
         z-index: 9999;
     }
 
@@ -833,6 +749,67 @@ p:first-letter {
 }
 
 @media screen and (max-width: 480px) {
+
+    /*INDEX*/
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    #indexHeader {
+        flex-basis: 65%;
+        order: 1;
+    }
+
+    #website-logo {
+        display: none;
+    }
+
+    #navigation {
+        order: 2;
+        flex-basis: 35%;
+        width: 30%;
+    }
+
+    .flex-aside {
+        order: 3;
+        min-width: 100%;
+        border: 1px solid black;
+        background-color: #ddeeff;
+    }
+
+    .video {
+        order: 4;
+        flex-basis: 100%;
+    }
+
+    .flexboxArticles {
+        order: 5;
+    }
+
+    .imgIndex {
+        height: 150px;
+        width: 300px;
+    }
+
+    #footerHome {
+        order: 6;
+        border: 1px solid black;
+    }
+
+    #cookieHome {
+        position: fixed;
+        color: #FFF;
+        opacity: 50%;
+        background-color: #FA0;
+        bottom: 0px;
+        right: 0px;
+        width: 36%;
+        z-index: 9999;
+    }
+
 
     #grid-container {
         display: grid;
