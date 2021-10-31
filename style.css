@@ -397,9 +397,11 @@ p:first-letter {
         flex-wrap: wrap;
         align-items: flex-start;
         flex-direction: column;
+        flex: 1;
     }
 
     #indexHeader {
+        flex-basis: 100%;
         order: 1;
     }
 
@@ -413,9 +415,13 @@ p:first-letter {
         background-color: #096b00;
     }
 
-    .flex-aside {
-        order: 3;
+
+    #articleProduct1,
+    #articleProduct2,
+    #articleProduct3 {
+        /* order: 3; */
         min-width: 100%;
+        flex-grow: 0;
         border: 1px solid black;
         background-color: #ddeeff;
     }
@@ -424,8 +430,22 @@ p:first-letter {
         order: 4;
     }
 
-    .flexboxArticles {
+    #articleProduct1 {
+        order: 7;
+    }
+
+    #articleProduct2 {
+        order: 6;
+    }
+
+    #articleProduct3 {
         order: 5;
+    }
+
+    .flex-aside {
+        order: 3;
+        padding: 5%;
+        flex-grow: 0;
     }
 
     .imgIndex {
@@ -434,7 +454,7 @@ p:first-letter {
     }
 
     #footerHome {
-        order: 6;
+        order: 9;
         border: 1px solid black;
     }
 
@@ -776,6 +796,8 @@ p:first-letter {
     .flex-aside {
         order: 3;
         min-width: 100%;
+        padding: 5%;
+        flex-grow: 0;
         border: 1px solid black;
         background-color: #ddeeff;
     }
@@ -785,8 +807,29 @@ p:first-letter {
         flex-basis: 100%;
     }
 
-    .flexboxArticles {
+    #articleProduct1,
+    #articleProduct2,
+    #articleProduct3 {
+        flex-basis: 100%;
+        flex-grow: 0;
+    }
+
+    #articleProduct1 {
+        order: 7;
+    }
+
+    #articleProduct2 {
+        order: 6;
+    }
+
+    #articleProduct3 {
         order: 5;
+    }
+
+    .flex-aside {
+        order: 3;
+        flex-grow: 0;
+        padding: 5%;
     }
 
     .imgIndex {
@@ -795,7 +838,7 @@ p:first-letter {
     }
 
     #footerHome {
-        order: 6;
+        order: 8;
         border: 1px solid black;
     }
 
