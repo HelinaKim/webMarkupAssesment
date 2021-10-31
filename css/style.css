@@ -416,7 +416,7 @@ p:first-letter {
     }
 }
 
-@media (min-width: 481px) and (max-width: 1279px) {
+@media (min-width: 481px) and (max-width: 1179px) {
 
     /*INDEX*/
     .flex-container {
