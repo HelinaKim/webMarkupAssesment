@@ -317,6 +317,7 @@ p:first-letter {
         grid-row: 6 / 11;
     }
 
+    /*a + (plus) element*/
     #ticketTable+p {
         background-color: #eeddee;
     }
@@ -695,6 +696,7 @@ p:first-letter {
         grid-column: 1 / 3;
         line-height: normal;
         word-spacing: normal;
+        letter-spacing: normal;
         text-indent: 10px;
         padding: 5px;
     }
@@ -756,7 +758,8 @@ p:first-letter {
 
     .contactForm fieldset {
         background-color: rgb(255, 199, 44);
-        border: 4px;
+        /* color: ymck (0%, 22%, 83%, 0%); */
+        border-width: 4px;
         border-style: double;
         border-color: #096b00;
     }
