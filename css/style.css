@@ -38,11 +38,6 @@ tr:nth-child(odd) {
     font-family: 'Notable', sans-serif;
 }
 
-p:first-letter {
-    font-size: 120%;
-    color: #096b00;
-}
-
 @media screen and (min-width: 1280px) {
 
     .video {
@@ -50,7 +45,7 @@ p:first-letter {
         order: 1;
     }
 
-    .flex-container {
+    .flex-containter {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -234,14 +229,6 @@ p:first-letter {
         overflow: hidden;
     }
 
-    a:hover {
-        background-color: #eeddee;
-    }
-
-    a:active {
-        background-color: blueviolet;
-    }
-
     #navigation li {
         float: left;
     }
@@ -365,24 +352,16 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 24.5%;
-        z-index: 9999;
     }
 
     /*Tickets PC version*/
     #articleTickets {
         grid-column: 1 / 4;
-        line-height: normal;
-        word-spacing: normal;
-        text-indent: 10px;
     }
 
     #ticketTable {
         grid-column: 1 / 3;
         grid-row: 6 / 11;
-    }
-
-    #ticketTable+p {
-        background-color: #eeddee;
     }
 
     #asideTickets {
@@ -423,7 +402,6 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 24.5%;
-        z-index: 9999;
     }
 
     /*Contact PC version*/
@@ -438,9 +416,6 @@ p:first-letter {
 
     .contactForm fieldset {
         background-color: rgb(255, 199, 44);
-        border: 4px;
-        border-style: double;
-        border-color: #096b00;
     }
 
     #asideContact {
@@ -476,62 +451,10 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 32%;
-        z-index: 9999;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 1279px) {
-
-    /*INDEX*/
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    #indexHeader {
-        order: 1;
-    }
-
-    #navigation {
-        order: 2;
-        min-width: 100%;
-        background-color: #096b00;
-    }
-
-    .flex-aside {
-        order: 3;
-    }
-
-    .video {
-        order: 4;
-    }
-
-    .flexboxArticles {
-        order: 5;
-    }
-
-    #footerCookie {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-evenly;
-    }
-
-    #footerHome {
-        width: 73.2%;
-    }
-
-    #cookieHome {
-        position: fixed;
-        color: #FFF;
-        opacity: 50%;
-        background-color: #FA0;
-        bottom: 0px;
-        right: 0px;
-        width: 26.8;
-        z-index: 9999;
-    }
 
     /*navigation*/
     #grid-tickets {
@@ -576,14 +499,6 @@ p:first-letter {
     #navigation li a {
         display: block;
         padding: 8px;
-    }
-
-    a:hover {
-        background-color: #eeddee;
-    }
-
-    a:active {
-        background-color: blueviolet;
     }
 
     /*images*/
@@ -701,10 +616,6 @@ p:first-letter {
         display: none;
     }
 
-    #japanProduct {
-        display: none;
-    }
-
     #footer {
         grid-column: 1 / 2;
         grid-row: 15 / 17;
@@ -718,7 +629,6 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 50.9%;
-        z-index: 9999;
     }
 
     .hamburger {
@@ -728,9 +638,6 @@ p:first-letter {
     /*tickets.html TABLET*/
     #articleTickets {
         grid-column: 1 / 3;
-        line-height: normal;
-        word-spacing: normal;
-        text-indent: 10px;
     }
 
     #ticketTable {
@@ -775,7 +682,6 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 49.7%;
-        z-index: 9999;
     }
 
     /*contact.html TABLET*/
@@ -790,9 +696,6 @@ p:first-letter {
 
     .contactForm fieldset {
         background-color: rgb(255, 199, 44);
-        border: 4px;
-        border-style: double;
-        border-color: #096b00;
     }
 
     #asideContact {
@@ -828,7 +731,6 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 24.3%;
-        z-index: 9999;
     }
 }
 
@@ -978,7 +880,6 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 38.8%;
-        z-index: 9999;
     }
 
     /*tickets.html MOBILE*/
@@ -1030,7 +931,6 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 49.7%;
-        z-index: 9999;
     }
 
     /*contact.html MOBILE*/
@@ -1045,9 +945,6 @@ p:first-letter {
 
     .contactForm fieldset {
         background-color: rgb(255, 199, 44);
-        border: 4px;
-        border-style: double;
-        border-color: #096b00;
     }
 
     #asideContact {
@@ -1083,6 +980,5 @@ p:first-letter {
         bottom: 0px;
         right: 0px;
         width: 36.8%;
-        z-index: 9999;
     }
 }

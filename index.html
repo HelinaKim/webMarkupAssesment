@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRAVEL</title>
+    <meta name="keywords" content="best, destination, travel, vacation, vacay"><title>TRAVEL</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" title="favicon" alt="favicon" href="img/favicon.png">
+    
+
+
 </head>
 <body>
-    <section id="flex-container">
-        <header>
+    <section class="flex-container">
+        <header id="indexHeader">
             <!--LOGO-->
-            <img src="img/logo.jpg" alt="logo" id="website-logo"> 
+            <img src="img/logo.jpg" alt="logo" id="website-logo" title="logo"> 
             <h1 id="website-title">Home</h1>
-            <h2 id="payoff">PayOff</h2>
+            <h2 id="payoff"><em>PayOff</em></h2>
         </header>
         <!-- NAVIGATION_BAR -->
         <nav id="navigation">
                 <input type="checkbox" id="nav-toggle">
                 <label for="nav-toggle" class="burger-menu">
-                    Menu
+                    &#9776;
                 </label>
                 <ul id="menu">
                     <li><a href="index.html">Home</a></li>
@@ -28,9 +32,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
-    </section>
 
-    <section id="flex-containerArticle">
         <!-- VIDEO -->
         <section class="video">
             <video autoplay muted loop id="videoHome">
@@ -40,17 +42,18 @@
             </video>
         </section>
 
-        <section>
+
+        <section class="flexboxArticles">
             <article id="articleProduct1">
                 <h1><strong>Discover Ibiza</strong></h1>
                 <section id="ibiza">
-                    <section>
-                        <p>
+                    <header>
+                        <p class="pArticle">
                             Booking a flight to Ibiza? A flight vacation to this Spanish island is hip and happening. Thanks to its trendy clubs and discos, the Mediterranean island is known as the number one party capital of the Balearic Islands. Ibiza Town and San Antonio are the place to be for lovers of a vibrant sun vacation on Ibiza.But also for couples and family vacations Ibiza is a fantastic place. Especially the charming Santa Eulalia is very popular for a vacation with children. On Ibiza nothing is too crazy! Book your cheap flight tickets to Ibiza at TUI today!
                             <a href="https://www.casamundo.com/holiday-rentals/spain/ibiza">more info</a>
                         </p>
-                    </section>
-                    <a href="https://www.casamundo.com/holiday-rentals/spain/ibiza"><img src="img/ibiza.jpg" alt="ibiza" id="ibizaImg"></a>
+                    </header>
+                    <a href="https://www.casamundo.com/holiday-rentals/spain/ibiza"><img src="img/ibiza.jpg" alt="ibiza" class="imgIndex"></a>
                 </section>
 
                 <footer id="footerIbiza">&#169;<a href="https://www.casamundo.com/holiday-rentals/spain/ibiza">www.casamundo.com/holiday</a></footer>
@@ -60,48 +63,53 @@
                 <h1><strong>Raining Sunshine Montego Bay</strong></h1>
                 <section id="MontegoBay">
                     <header>
-                        <p>
+                        <p class="pArticle">
                             Book your flight tickets to Montego Bay with TUI and prepare for a tropical sunshine vacation in Jamaica. This island in the Caribbean is known for its 'no-stress' lifestyle and snow-white beaches like Docters-Cave-Beach and Cornwall Beach, where you can spend entire days lazing under a swaying palm tree and gazing at the sea with a tropical drink in hand. Add to this the many excursions and the always sunny and warm climate, and the vacation picture is complete! So get on a plane to Jamaica quickly!
                             <a href="https://www.tripadvisor.nl/Hotel_Review-g660724-d12473683-Reviews-Jewel_Grande_Montego_Bay_Resort_Spa-Rose_Hall_Montego_Bay_Saint_James_Parish_Jamaica.html">more info</a>
                         </p>
                     </header>
                 </section>
                 
-                <a href="https://www.tripadvisor.nl/Hotel_Review-g660724-d12473683-Reviews-Jewel_Grande_Montego_Bay_Resort_Spa-Rose_Hall_Montego_Bay_Saint_James_Parish_Jamaica.html"><img src="img/montagoBay.jpg" alt="montagoBay" id="montagoBay"></a>
+                <a href="https://www.tripadvisor.nl/Hotel_Review-g660724-d12473683-Reviews-Jewel_Grande_Montego_Bay_Resort_Spa-Rose_Hall_Montego_Bay_Saint_James_Parish_Jamaica.html"><img src="img/montagoBay.jpg" alt="montagoBay" class="imgIndex"></a>
                 
                 <footer id="footerMontegoBay">&#169;Tripadvisor</footer>
             </article>
 
             <article id="articleProduct3">
                 <h1><strong>The highlights of Paramaribo</strong></h1>
-                <section>
-                    <p>
-                        Paramaribo is the capital and the beating heart of Suriname. In the center you will find colored buildings in colonial style next to meters-high palm trees. Take a stroll through Palmengarten, the Surinamese answer to the traditional Dutch City Park. From the park, cross the Kleine Waterstraat and you're at the Surinaams Museum and Fort Zeelandia. Want to learn more about local history? Then join a guided tour of the fort. Then have dinner on the waterfront. Do you see yourself here already feasting on a portion of roti? Then buy flight tickets to Paramaribo right away.
-                        <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html">more info</a>
-                    </p>
+                <section id="Paramaribo">
+                    <header>
+                        <p class="pArticle">
+                            Paramaribo is the capital and the beating heart of Suriname. In the center you will find colored buildings in colonial style next to meters-high palm trees. Take a stroll through Palmengarten, the Surinamese answer to the traditional Dutch City Park. From the park, cross the Kleine Waterstraat and you're at the Surinaams Museum and Fort Zeelandia. Want to learn more about local history? Then join a guided tour of the fort. Then have dinner on the waterfront. Do you see yourself here already feasting on a portion of roti? Then buy flight tickets to Paramaribo right away.
+                            <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html">more info</a>
+                        </p>
+                    </header>
                 </section>
-                <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html"><img src="img/paramaribo.jpg" alt="paramaribo" id="paramaribo"></a>
+                <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html"><img src="img/paramaribo.jpg" alt="paramaribo" class="imgIndex"></a>
                 
                 <footer id="footerParamaribo">&#169; <a href="https://www.tripadvisor.nl/Hotel_Review-g294082-d1774732-Reviews-Hotel_North_Resort-Paramaribo_Paramaribo_District.html">Tripadvisor</a></footer>
             </article>
+
+            <section class="flex-aside">
+                <aside id="asideIndex">
+                    <ol id="asideList">
+                        <li>Malaga</li>
+                        <li>Ibiza</li>
+                        <li>Mollorca</li>
+                        <li>Paramaribo</li>
+                        <li>Montego Bay</li>
+                    </ol>
+                </aside>
+            </section>
         </section>
         
-        <section id="flex-aside">
-            <aside id="asideIndex">
-                <ol id="asideList">
-                    <li>Malaga</li>
-                    <li>Ibiza</li>
-                    <li>Mollorca</li>
-                    <li>Paramaribo</li>
-                    <li>Montego Bay</li>
-                </ol>
-            </aside>
+        <section class="footerCookie">
+            <footer id="footerHome">&#169; Helina Kim</footer>
+
+            <section id="cookieHome">Cookie statement</section>
         </section>
         
-
-        <footer id="footerHome">&#169; Helina Kim</footer>
-
-        <section id="cookieHome">Cookie statement</section>
     </section>
+    
 </body>
 </html>
